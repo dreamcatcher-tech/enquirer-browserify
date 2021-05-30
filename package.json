@@ -35,7 +35,6 @@
     "gulp-format-md": "^2.0.0",
     "inquirer": "^6.2.0",
     "mocha": "^5.2.0",
-    "np": "^7.5.0",
     "nyc": "^13.1.0",
     "prompts": "^1.2.1",
     "time-require": "github:jonschlinkert/time-require",
