@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",
-    "keypress": "^0.2.1"
+    "keypress-browserify": "^0.2.2"
   },
   "devDependencies": {
     "@types/node": "^8",
