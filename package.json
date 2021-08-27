@@ -1,7 +1,7 @@
 {
   "name": "enquirer-browserify",
   "description": "Clone of enquirer, that works in the browser",
-  "version": "2.3.10",
+  "version": "2.3.11",
   "homepage": "https://github.com/dreamcatcher-tech/enquirer-browserify",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
