@@ -29,6 +29,7 @@
   "dependencies": {
     "ansi-colors-browserify": "^4.1.2",
     "buffer": "^6.0.3",
+    "events": "^3.3.0",
     "keypress-browserify": "^0.2.3"
   },
   "devDependencies": {
