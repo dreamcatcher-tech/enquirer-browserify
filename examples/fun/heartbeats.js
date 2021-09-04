@@ -1,4 +1,4 @@
-const { red } = require('ansi-colors');
+const { red } = require('ansi-colors-browserify');
 const { MultiSelect } = require('enquirer');
 
 /**

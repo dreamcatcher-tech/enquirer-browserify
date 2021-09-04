@@ -1,7 +1,7 @@
 'use strict';
 
 require('mocha');
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const assert = require('assert');
 const PromptBase = require('../lib/prompt');
 const { timeout } = require('./support')(assert);

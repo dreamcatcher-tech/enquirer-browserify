@@ -1,6 +1,6 @@
 'use strict';
 
-const { symbols, green, red, yellow } = require('ansi-colors');
+const { symbols, green, red, yellow } = require('ansi-colors-browserify');
 const { Select } = require('enquirer');
 
 const prompt = new Select({

@@ -2,7 +2,7 @@
 
 require('mocha');
 const assert = require('assert');
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const support = require('./support');
 const Enquirer = require('..');
 const { Prompt, Input } = Enquirer;

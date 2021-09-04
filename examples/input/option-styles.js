@@ -1,7 +1,7 @@
 'use strict';
 
 const { Input } = require('enquirer');
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const prompt = new Input({
   message: 'What is your username?',
   initial: 'jonschlinkert',

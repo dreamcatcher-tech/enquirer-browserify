@@ -1,6 +1,6 @@
 'use strict';
 
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const { MultiSelect } = require('enquirer');
 const enable = (choices, fn) => choices.forEach(ch => (ch.enabled = fn(ch)));
 

@@ -1,6 +1,6 @@
 'use strict';
 
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 let timeout;
 
 const press = str => colors.red('<') + str + colors.red('>');

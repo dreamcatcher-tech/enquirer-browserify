@@ -23,7 +23,7 @@ The `prompt.status` getter is used to determine if a prompt session is still act
 The following example illustrates how to use the prompt `status` to determine the [separator](#separator) to use.
 
 ```js
-const { symbols } = require('ansi-colors');
+const { symbols } = require('ansi-colors-browserify');
 const { prompt } = require('enquirer');
 const response = await prompt({
   type: 'color',

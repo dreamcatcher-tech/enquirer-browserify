@@ -1,6 +1,6 @@
 'use strict';
 
-const { red, dim } = require('ansi-colors');
+const { red, dim } = require('ansi-colors-browserify');
 const { MultiSelect } = require('enquirer');
 
 const prompt = new MultiSelect({

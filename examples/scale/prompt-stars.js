@@ -1,6 +1,6 @@
 'use strict';
 
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const { Scale } = require('enquirer');
 const prompt = new Scale({
   name: 'experience',

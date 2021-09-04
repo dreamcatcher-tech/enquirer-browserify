@@ -1,7 +1,7 @@
 'use strict';
 
 const yosay = require('yosay');
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const { Select } = require('enquirer');
 
 /**

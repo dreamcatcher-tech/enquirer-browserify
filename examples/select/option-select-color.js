@@ -1,7 +1,7 @@
 'use strict';
 
 const { Select } = require('enquirer');
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 
 const prompt = new Select({
   name: 'color',

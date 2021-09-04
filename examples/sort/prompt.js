@@ -1,6 +1,6 @@
 'use strict';
 
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const { Sort } = require('enquirer');
 const prompt = new Sort({
   name: 'colors',

@@ -2,7 +2,7 @@
 
 require('mocha');
 const assert = require('assert');
-const { cyan, dim, gray } = require('ansi-colors');
+const { cyan, dim, gray } = require('ansi-colors-browserify');
 const support = require('./support');
 const { nextTick, expect, immediate } = support(assert);
 const PromptSelect = require('../lib/prompts/select');

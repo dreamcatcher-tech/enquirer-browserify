@@ -1,6 +1,6 @@
 'use strict';
 
-const { dim, cyan, green } = require('ansi-colors');
+const { dim, cyan, green } = require('ansi-colors-browserify');
 const { Invisible } = require('enquirer');
 
 const prompt = new Invisible({

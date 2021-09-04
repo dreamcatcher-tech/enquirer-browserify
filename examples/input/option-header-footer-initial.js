@@ -1,6 +1,6 @@
 'use strict';
 
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const yosay = require('yosay');
 const { Input } = require('enquirer');
 const prompt = new Input({

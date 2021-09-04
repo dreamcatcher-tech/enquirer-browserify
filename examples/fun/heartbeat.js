@@ -1,5 +1,5 @@
 const { Select } = require('enquirer');
-const { red } = require('ansi-colors');
+const { red } = require('ansi-colors-browserify');
 
 /**
  * This examples shows how to use the `timers` option to

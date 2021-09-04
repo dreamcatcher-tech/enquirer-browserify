@@ -1,7 +1,7 @@
 'use strict';
 
 const log = require('../log-keypress');
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const { prompt } = require('enquirer');
 
 prompt({

@@ -3,7 +3,7 @@
 require('mocha');
 const fs = require('fs');
 const assert = require('assert');
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const support = require('./support');
 const { timeout, nextTick, expect } = support(assert);
 const MultiSelect = require('../lib/prompts/multiselect');

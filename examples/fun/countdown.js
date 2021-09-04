@@ -1,4 +1,4 @@
-const { dim, green, red, yellow } = require('ansi-colors');
+const { dim, green, red, yellow } = require('ansi-colors-browserify');
 const { Input } = require('enquirer');
 const color = t => t >= 7 ? green(t) : t > 3 ? yellow(t) : red(t);
 let time = 5;

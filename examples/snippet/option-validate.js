@@ -1,6 +1,6 @@
 'use strict';
 
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const semver = require('semver');
 const { Snippet } = require('enquirer');
 const prompt = new Snippet({

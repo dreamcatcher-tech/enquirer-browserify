@@ -1062,7 +1062,7 @@ In this [example](https://github.com/enquirer/enquirer/raw/master/examples/sort/
 **Example Usage**
 
 ```js
-const colors = require('ansi-colors');
+const colors = require('ansi-colors-browserify');
 const { Sort } = require('enquirer');
 const prompt = new Sort({
   name: 'colors',

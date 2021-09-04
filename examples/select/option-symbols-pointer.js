@@ -1,6 +1,6 @@
 'use strict';
 
-const { red } = require('ansi-colors');
+const { red } = require('ansi-colors-browserify');
 const { Select } = require('enquirer');
 
 const rhythm = [red.dim, red, red.dim, red, red.dim, red.dim];
